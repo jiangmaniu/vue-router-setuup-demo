@@ -1,7 +1,7 @@
 <template>
-    <div>1234123</div>
+    <div>test router</div>
     <div>{{ text }}</div>
-    <HelloWorld :msg="text" class="c"></HelloWorld>
+    <HelloWorld :msg="text" class="text-color"></HelloWorld>
 </template>
 
 <script lang="ts" setup>
@@ -11,7 +11,7 @@ const text = ref('router setup test')
 </script>
 
 <style>
-.c {
+.text-color {
   color: red !important;
 }
 </style>

@@ -15,6 +15,7 @@ withDefaults(defineProps<{
 </script>
 
 <script lang="ts">
+// This grammar is reported in error in vue-router
 export default defineComponent({
   inheritAttrs: false
 })
